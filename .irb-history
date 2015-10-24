@@ -1,0 +1,18 @@
+Time.now
+Article.new
+a = Article.new
+a.title = "Sample Article Title"
+a.body = "This is the text for my article, woo hoo!"
+a.save
+p a
+p a.title
+b = Article.new
+b.title = "Test two"
+b.body = "copy that"
+b
+Article.all.title
+b.save
+Articles.all
+Article.all
+bin/rake routes
+exit
